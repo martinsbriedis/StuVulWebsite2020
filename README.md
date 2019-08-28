@@ -10,6 +10,9 @@ This is the github repo of the Swiss Ornithological **Migration Department** hom
 - ask Silke [silke.bauer@vogelwarte.ch](mailto:silke.bauer@vogelwarte.ch) or Simeon [simeon.lisovski@vogelwarte.ch](mailto:simeon.lisovski@vogelwarte.ch) to be added as a collaborator to the repo
 
 ## Using R Studio and Git (Version Control)
+
+If you want to have a preview on changes you make, make sure you have the R package `blockdown` installed.
+
 To use version control with RStudio, you should first ensure that you have installed Git tools on your workstation. You should install it using the appropriate method for your platform:
 
 * **Windows  & OS X**: http://git-scm.com/downloads
