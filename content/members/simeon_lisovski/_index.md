@@ -4,7 +4,7 @@ name: Simeon Lisovski
 
 # Username (this should match the folder name)
 authors:
-- simeon
+- simeon_lisovski
 
 # Is this the primary user of the site?
 superuser: false

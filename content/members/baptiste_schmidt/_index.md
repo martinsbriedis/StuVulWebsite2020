@@ -1,16 +1,16 @@
 ---
 # Display name
-name: Tom Mason
+name: Baptiste Schmidt
 
 # Username (this should match the folder name)
-authors:
-- tom
+author:
+- baptiste_schmidt
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Postdoc
+role: Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -69,4 +69,4 @@ user_groups:
 - Researchers
 ---
 
-Tom is a conservation ecologist interested in how wild animal populations respond to changes in their environment. He works as a post-doctoral researcher within the Bird Migration Department of the Swiss Ornithological Institute. Within GloBAM, Tom will focus on developing spatial models of bird migration to explore how migratory journeys will be affected by global environmental change.
+Baptiste is fascinated by observing animal movements and works with radar systems to investigate the spatio-temporal dynamics of mass migratory movements. He feels very fortunate to conduct research on avian migration at the Swiss Ornithological Institute. Within GloBAM, Baptiste is working to improve our ability to distinguish bats and insects from birds in radar signals.

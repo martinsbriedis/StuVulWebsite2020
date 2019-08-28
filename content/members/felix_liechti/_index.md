@@ -1,16 +1,16 @@
 ---
 # Display name
-name: Silke Bauer
+name: Felix Liechti
 
 # Username (this should match the folder name)
 authors:
-- admin
+- felix_liechti
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Senior Researcher
+role: Department Head
 
 # Organizations/Affiliations
 organizations:
@@ -66,9 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Researchers
+- Department Head
 ---
 
-Silke Bauer is a senior researcher with major interests in artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Felix is an ecologist with broad interests, but a particular focus on bird migration. He has been fascinated for more than 30 years in using modern technology like radar and miniaturized data-loggers to investigate animal movements that are otherwise invisible. Felix leads the Bird Migration Department at the Swiss Ornithological Institute and is a senior adviser within GloBAM.
