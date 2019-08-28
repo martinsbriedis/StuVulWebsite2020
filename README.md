@@ -99,6 +99,12 @@ or commit the changes cia the commit putton and subsequently push to the reposit
 - Add an `_index.md` file (copy paste from existing member).
 - Adjust text in `_index.md` file.
 
+You can built the homepage and check if your changes work and how the website would look like:
+
+{{% alert warning %}}
+Do *not* knit but use `blogdown::serve_site`. This command will give you a temporary url (e.g. https://http://127.0.0.1:4321/) where you can view the updated version.
+{{% /alert %}}
+
 
 ### Add a publication 
 
