@@ -101,9 +101,7 @@ or commit the changes cia the commit putton and subsequently push to the reposit
 
 You can built the homepage and check if your changes work and how the website would look like:
 
-{{% alert warning %}}
-Do *not* knit but use `blogdown::serve_site`. This command will give you a temporary url (e.g. https://http://127.0.0.1:4321/) where you can view the updated version.
-{{% /alert %}}
+Do *not* knit but use `blogdown::serve_site`. This command will give you a temporary url (e.g. http://127.0.0.1:4321/) where you can view the updated version.
 
 
 ### Add a publication 
