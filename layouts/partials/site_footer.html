@@ -1,13 +1,12 @@
 <footer class="site-footer">
+  
 
-  <div class="center" id="footer-rows">
-         <img src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.footerlogo }}">
-  </div>
-
+    <i class="center" id="footer-rows"> <img src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.footerlogo }}"> </i>
+  
   <p class="powered-by">
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} <br> {{ end }}
 
-    Made with <a href="https://github.com/rbind/apreshill" target="_blank" rel="noopener"><i class="fas fa-code-branch" style="color:#E13D3D"></i></a>, the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the 
+    Made with <a href="https://github.com/" target="_blank" rel="noopener"><i class="fas fa-code-branch" style="color:#E13D3D"></i></a>, the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the 
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
