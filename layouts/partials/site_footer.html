@@ -1,7 +1,7 @@
 <footer class="site-footer">
   
 
-    <i class="center" id="footer-rows"> <img src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.footerlogo }}"> </i>
+  <i class="center" id="footer-rows"> <img src="/img/{{ $.Site.Params.footerlogo }}"> </i>
   
   <p class="powered-by">
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} <br> {{ end }}
