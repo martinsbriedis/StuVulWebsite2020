@@ -12,7 +12,7 @@ subtitle = "... and how we do it"
 weight = 2
 +++
 
-Some of our really good core research questions:
+Some of our core research questions:
 
 1.	Migratory routes and phenology across the year
 2.	Migration and the effects of parasites
