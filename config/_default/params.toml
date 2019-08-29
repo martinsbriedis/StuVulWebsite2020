@@ -130,7 +130,7 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
   
-footerlogo = "vogelwarte_kurz_rot_nobackground1.png"  
+footerlogo = "vogelwarte_lang_rot.png"  
   
 # Configuration of publication pages.
 [publications]
