@@ -35,28 +35,21 @@
 /* to make "white bg" transparent */
 .home-section {
   background-color: transparent;
+  z-index: 1;
 }
 
 #watermark{
-	/*background-image:url('http://physics.ucr.edu/~flip/images/BG_Bundle2.jpg');*/
-	background-size: 700px 350px;
-	background-repeat:no-repeat;
-	background-position:left top;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 30px;
-	left: 0px;
-  pointer-events: none;
-	height: 100%;
-	width: 100%;
-	text-align: right;
-	opacity: 0.1;
-}
-
-.sidebarpic{
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  margin: 0 auto;
+    background-size: 700px 350px;
+    background-repeat:no-repeat;
+    background-position:left top;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    pointer-events: none;
+    height: 120%;
+    width: 120%;
+    text-align: right;
+    opacity: 0.4;
 }
