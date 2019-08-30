@@ -9,11 +9,26 @@ This is the github repo of the Swiss Ornithological **Migration Department** hom
 - make a github account [here](https://github.com/)
 - ask Silke [silke.bauer@vogelwarte.ch](mailto:silke.bauer@vogelwarte.ch) or Simeon [simeon.lisovski@vogelwarte.ch](mailto:simeon.lisovski@vogelwarte.ch) to be added as a collaborator to the repo
 
+
 ## Using R Studio and Git (Version Control)
 
-If you want to have a preview on changes you make, make sure you have the R package `blockdown` installed.
+1. Install `blogdown` from your RStudio console. If you already have `devtools` installed like I did, you can just use the second line below:
 
-To use version control with RStudio, you should first ensure that you have installed Git tools on your workstation. You should install it using the appropriate method for your platform:
+```
+if (!requireNamespace("devtools")) install.packages("devtools")
+devtools::install_github("rstudio/blogdown")
+```
+
+2. Install Hugo using the `blogdown` package helper function:
+
+```
+blogdown::install_hugo()
+# or
+library(blogdown)
+install_hugo()
+```
+
+3. To use version control with RStudio, you should first ensure that you have installed Git tools on your workstation. You should install it using the appropriate method for your platform:
 
 * **Windows  & OS X**: http://git-scm.com/downloads
 * **Debian/Ubuntu**: sudo apt-get install git-core
@@ -21,15 +36,21 @@ To use version control with RStudio, you should first ensure that you have insta
 
 FYI: An excellent resource for learning more about Git and how to use it is the Pro Git online book. Another good resource for learning about git is the Git Bootcamp provided by GitHub.
 
-Best to create a folder (called `GitHub`) on your hard drive in which you will add/clone your GitHub repositories.
+4. Best to create a folder (called `GitHub`) on your hard drive in which you will add/clone your GitHub repositories.
 
-- go to your terminal and go to this directory where you'd like to clone the website repository
+- go to your Command Prompt app (windows) and **run as administrator** (secondary mouse click -> run as administrator)
+- navigate to your `GitHub` folder e.g.:
+
+```
+cd C:\Users\User\Documents\GitHub
+```
+
 - run this command in your terminal: 
 ```
 git clone --recursive -j8 https://github.com/silkebauer/MigrationWebsite2019.git
 ```
 
-- go into the folder and open the `MigrationWebsite2019.RProj` file in RStudio.
+- go into the now created folder (in your explorer) and open the `MigrationWebsite2019.RProj` file in RStudio.
 
 ## Folder organization 
 
@@ -70,23 +91,13 @@ git clone --recursive -j8 https://github.com/silkebauer/MigrationWebsite2019.git
 
 If you have any trouble getting things to work, one way is to post an issue on the github repo or email Simeon [simeon.lisovski@vogelwarte.ch](mailto:simeon.lisovski@vogelwarte.ch). 
 
-First alwys pull the most recent changes from the github repository by either running: 
+Once you have `git` installed on your computer you should see a new panel called `Git`. In this panes, you will see changes you make in any files and you will be able to `Commit` changes and `Push` them to the repository. The latter will automatically update the homepage.
 
-```
-bash download.sh 
-```
+**First** alwys `Pull` the most recent version from the github repository by either running (simply press `Pull`)
 
-or press the pull buton in the Git window.
+Once you changed something you can `Commit` the changes (select all or select the once you want to commit and **Important** provide a meaningfull comment that will allow other users to see what these changes are and undo them if nessesary). 
 
-
-To submit any changes you've made, either run:
-
-```
-bash upload.sh 'message'
-```
-Please type a 'message' that communicates what changes you've made. 
-
-or commit the changes cia the commit putton and subsequently push to the repository.
+If you want to upload the changes to the `GitHub` repository press `Push`, provide your username and password and _done_!
 
 
 ### Add yourself to the homepage
@@ -99,9 +110,17 @@ or commit the changes cia the commit putton and subsequently push to the reposit
 - Add an `_index.md` file (copy paste from existing member).
 - Adjust text in `_index.md` file.
 
-You can built the homepage and check if your changes work and how the website would look like:
+You can built the homepage and check if your changes work and how the website would look like by either running:
 
-Do *not* knit but use `blogdown::serve_site`. This command will give you a temporary url (e.g. http://127.0.0.1:4321/) where you can view the updated version.
+```
+logdown::serve_site()
+```
+
+or go to Addins <- Serve Site,
+
+Do *not* knit but use `blogdown::serve_site`. 
+
+This command will give you a temporary url (e.g. http://127.0.0.1:4321/) where you can view the updated version (better to use this link and paste it into a browser rather than using the RStudio Viewer panel.
 
 
 ### Add a publication 
