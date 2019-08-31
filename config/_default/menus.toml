@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Home"
-  url = "#about"
+  url = "#start"
   weight = 10
 
 [[main]]
@@ -21,7 +21,7 @@
 
 [[main]]
   name = "Team"
-  url = "#people"
+  url = "#members"
   weight = 40
 
 [[main]]

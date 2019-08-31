@@ -3,7 +3,7 @@
 name: Felix Liechti
 
 # Username (this should match the folder name)
-authors:
+auhor:
 - felix_liechti
 
 # Is this the primary user of the site?
@@ -14,7 +14,7 @@ role: Department Head
 
 # Organizations/Affiliations
 organizations:
-- name: Swiss ornithological Institute
+- name: Swiss Ornithological Institute
   url: "www.vogelwarte.ch"
 
 # Short bio (displayed in user profile at end of posts)
@@ -63,7 +63,7 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
   
-# Organizational groups that you belong to (for People widget)
+# Organizational groups that you belong to (for Member widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
 - Department Head
