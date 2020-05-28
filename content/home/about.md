@@ -14,7 +14,11 @@ weight = 2
  
 Animal migrations span the globe involving billions of individuals that along their journeys provide a multitude of services to our economy, agriculture and health. However, in the light of the ongoing global and climate change, many migrant populations have alarmingly declined over the past decades.
  
-In this research project we aim at:  \n1. Describing spatiotemporal migratory patterns of individual birds  \n2. Investigating the role of environmental factors on migration performance   \n3. Quantifying energetics of migration  \n4. Identifying carry-over effects and their downstream consequences on migratory birds
+In this research project we aim at: 
+1. Describing spatiotemporal migratory patterns of individual birds  
+2. Investigating the role of environmental factors on migration performance   
+3. Quantifying energetics of migration  
+4. Identifying carry-over effects and their downstream consequences on migratory birds
   
 To achieve this, we will combine full annual cycle tracking via novel multi-sensor geolocators with breeding and health status monitoring of indivdual birds.
   
