@@ -14,7 +14,7 @@ weight = 2
  
 Animal migrations span the globe involving billions of individuals that along their journeys provide a multitude of services to our economy, agriculture and health. However, in the light of the ongoing global and climate change, many migrant populations have alarmingly declined over the past decades.
  
-In this research project we aim at: 
+In this research project we aim at:  
 1. Describing spatiotemporal migratory patterns of individual birds  
 2. Investigating the role of environmental factors on migration performance   
 3. Quantifying energetics of migration  
