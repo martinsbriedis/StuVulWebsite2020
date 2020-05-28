@@ -14,7 +14,7 @@ title = "Seasonally specific responses to wind patterns and ocean productivity f
 url_code = ""
 url_dataset = ""
 url_pdf = "papers/Hromadkova_et_al-2020-MEPS-Sterna paradisaea.pdf"
-url_project = "Tracking"
+url_project = "about/2020-05-21-about-tracking"
 url_slides = ""
 url_video = ""
 
