@@ -1,0 +1,36 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for Tobias Gerstenberg at 2020-04-28 14:00:40 -0700 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{gerstenberg2020csm,
+	Abstract = {How do people make causal judgments? We propose the counterfactual simulation model (CSM) of causal judgment which predicts causal judgments by comparing what actually happened with counterfactual simulations of what would have happened in relevant contingencies. It postulates different aspects of causation that capture whether the cause made a difference to whether and how the outcome occurred, and if the cause was sufficient and robust. We test the CSM in three experiments that ask participants to make judgments about dynamic collision events. Experiment 1 reveals a very close quantitative mapping between causal judgments, and participants' belief that the outcome would have been different without the cause. Experiment 2 demonstrates that counterfactual contrasts are necessary for explaining causal judgments. Participants' judgments differ dramatically between pairs of situations in which what actually happened was identical, but what would have happened differed. Experiment 3 features two candidate causes and shows that participants' judgments are sensitive to different aspects of causation. The CSM provides a better fit to participants' judgments than a heuristic model which uses features based on what actually happened. We discuss how the CSM can be used to model the semantics of different causal verbs, deal with causation by omission, and be extended beyond the physical domain.},
+	Author = {Tobias Gerstenberg and Noah D. Goodman and David A. Lagnado and Joshua B. Tenenbaum},
+	Date-Added = {2020-03-31 22:10:13 -0700},
+	Date-Modified = {2020-03-31 22:16:43 -0700},
+	Note = {preprint on OSF at \url{https://psyarxiv.com/7zj94/}},
+	Title = {A counterfactual simulation model of causal judgment},
+	Year = {{submitted}}}
+
+@article{langenhoff2019voting,
+	Abstract = {How do people hold others responsible for their actions? In this paper, we test and extend a computational framework originally introduced by Gerstenberg et al. (2018) that assigns responsibility as a function of two factors: a dispositional inference that captures what we learn about a person's character from their action, and the causal role that the person's action played in bringing about the outcome. This framework has been shown to accurately capture how people assign responsibility to decision-makers in achievement contexts. Here, we focus on a more complex group setting in which political committee members vote on whether or not a policy should be passed. This setting allowed us to manipulate both dispositional inferences and causal attributions in graded ways, as well as directly test the model's key components by asking participants to judge how surprising and how important a committee member's vote was. Participants' answers to these questions in Experiment 1 accurately predicted the responsibility judgments of another group of participants in Experiment 2. In Experiment 3, we show that the model also predicts moral responsibility judgments and that, in the moral domain, dispositional inferences affect responsibility judgments more strongly than causal attributions.},
+	Author = {Antonia F Langenhoff and Alexander Wiegmann and Joseph Y Halpern and Joshua B Tenenbaum and Tobias Gerstenberg},
+	Date-Added = {2019-09-19 17:00:26 -0700},
+	Date-Modified = {2019-09-19 17:02:13 -0700},
+	Title = {Predicting responsibility judgments from dispositional inferences and causal attributions},
+	Year = {{submitted}}}
+
+@article{gerstenberg2019physical,
+	Abstract = {When several causes contributed to an outcome, we often single out one as ``the'' cause. What explains this selection? Previous work has argued that people select abnormal events as causes, though recent work shows that sometimes normal events are preferred over abnormal ones. Existing studies have relied on vignettes that commonly feature agents committing immoral acts. An important challenge to the thesis that norms permeate causal reasoning is that people's responses may merely reflect pragmatic or social reasoning rather than arising from causal cognition per se. We test this hypothesis by asking whether the previously observed patterns of causal selection emerge in tasks that recruit participants' causal reasoning about physical systems. Strikingly, we find that the same patterns observed in vignette studies with intentional agents arises in visual animations of physical interactions. Our results demonstrate how deeply normative expectations affect causal cognition.},
+	Author = {Tobias Gerstenberg and Thomas F. Icard},
+	Date-Added = {2019-09-18 16:51:30 -0700},
+	Date-Modified = {2019-09-18 16:51:30 -0700},
+	Journal = {Journal of Experimental Psychology: General},
+	Title = {Expectations affect physical causation judgments},
+	Year = {2019}}

@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "Recent news"
+title = "Latest news"
 subtitle = ""
 
 [content]
@@ -25,7 +25,7 @@ subtitle = ""
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = "post"
+    tag = "blog"
     category = ""
     publication_type = ""
     exclude_featured = false

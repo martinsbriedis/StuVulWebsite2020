@@ -1,0 +1,35 @@
+---
+title: 'Mulit-sensor geolocator tracking'
+authors:
+- ""
+date: '2020-05-24'
+summary: Monitoring, understanding and forecasting aerial migrations across the globe
+image:
+  placement: 1
+  caption: '_Starling equipped with a milti-senor geolocator. The geolocator is mounted on the back of the bird  using non-flexible leg-loop harness_' 
+  focal_point: 'center'
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 1
+categories: [tracking, geolocation]
+tags: [about]
+---
+
+Intro...
+
+### Light
+
+Light sensor
+
+### Acceleration
+
+Accelometer
+
+### Pressure
+
+Pressure gauge
+
+### Temperature
+
+Temperature sensor

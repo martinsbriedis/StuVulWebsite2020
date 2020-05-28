@@ -1,0 +1,30 @@
+---
+title: 'Health Monitoring'
+authors:
+- ""
+date: '2020-05-24'
+summary: Monitoring blood parisites of migratory birds
+image:
+  caption: '_Healthy and infected red blood cells of a bird._'
+  focal_point: 'center'
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 1
+categories: [malaria]
+tags: [about]
+---
+
+Short description
+
+### Effects on migration
+
+Short description
+
+### Effects on survival
+
+Short description
+
+### Effects on energetics
+
+Short description

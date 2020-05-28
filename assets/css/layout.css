@@ -39,17 +39,18 @@
 }
 
 #watermark{
-    background-size: 700px 350px;
+    background-size: 496px 420px;
     background-repeat:no-repeat;
     background-position:left top;
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 200px;
+    top: 50px;
     left: 10px;
     pointer-events: none;
-    height: 120%;
-    width: 120%;
+    height: 100%;
+    width: 100%;
     text-align: right;
-    opacity: 0.4;
+    opacity: 0.1;
 }
+

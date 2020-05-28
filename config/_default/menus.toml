@@ -5,13 +5,36 @@
 
 [[main]]
   name = "Home"
-  url = "#start"
+  url = "#about"
   weight = 10
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "About"
+  url = "#about"
   weight = 20
+
+[[main]]
+  name = "Starling"
+  parent = "About"
+  url = "about/2020-05-21-about-starling"
+  weight = -2
+  
+[[main]]
+  name = "Multi-sensor tracking"
+  parent = "About"
+  url = "about/2020-05-21-about-tracking"
+  weight = -1
+
+[[main]]
+  name = "Breeding monitoring"
+  parent = "About"
+  url = "about/2020-05-21-about-monitoring"
+  weight = 0
+
+[[main]]
+  name = "Health monitoring"
+  parent = "About"
+  url = "about/2020-05-21-about-Malaria"
 
 [[main]]
   name = "News"
@@ -26,5 +49,7 @@
 
 [[main]]
   name = "Publications"
+  identifier = "Publications"
   url = "#publications"
   weight = 50
+  

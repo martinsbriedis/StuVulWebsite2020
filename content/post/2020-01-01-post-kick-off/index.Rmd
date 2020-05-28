@@ -1,0 +1,18 @@
+---
+title: 'The project kicks off'
+authors:
+- "Martins Briedis"
+date: '2020-05-23'
+summary: Annual cycle tracking of a short-distance migrant
+image:
+  caption: '_Conseptual figure_'
+  focal_point: 'center'
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 1
+categories: [annual cycle, energetics]
+tags: [blog]
+---
+
+Text
