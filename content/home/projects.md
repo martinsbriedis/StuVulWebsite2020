@@ -24,7 +24,7 @@ height = "400px"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   # overlay_color = "#666"  # An HTML color value.
-  overlay_img = "projects/strazds4.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "Projects/strazds4.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.1  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -43,7 +43,7 @@ height = "400px"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   # overlay_color = "#666"  # An HTML color value.
-  overlay_img = "projects/strazds4 copy.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "Projects/strazds4 copy.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.15  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -63,7 +63,7 @@ height = "400px"
   # Overlay a color or image (optional).
   #  Deactivate an option by commenting out the line, prefixing it with `#`.
   #  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "projects/ligzda.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "Projects/ligzda.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.1  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -83,7 +83,7 @@ height = "400px"
   # Overlay a color or image (optional).
   #  Deactivate an option by commenting out the line, prefixing it with `#`.
   #  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "projects/malaria2.png"  # Image path relative to your `static/img/` folder.
+  overlay_img = "Projects/malaria2.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.2  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
